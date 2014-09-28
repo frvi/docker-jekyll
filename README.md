@@ -15,4 +15,4 @@ Point your browser to [http://localhost:4000/](http://localhost:4000/).
 ### Enable drafts
 To run with *drafts* enabled:
 
-```docker run -d -v $PWD:/jekyll -e DRAFTS=true -p 4000:4000 frvi/jekyll```
+```docker run -d -v $PWD:/jekyll -p 4000:4000 frvi/jekyll --drafts```
